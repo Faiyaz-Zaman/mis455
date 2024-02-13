@@ -1,0 +1,148 @@
+.firstimage {
+    width: 600px;
+    height: 600px;
+    border: 1px solid #000;
+    background-color: wheat;
+    
+    margin: 10px 10px;
+    padding: 10px 10px;
+  }
+  .container-img{
+    display:flex;  
+  }
+  
+ 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  li {
+    float: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+h1{
+    font-family: 'Protest Strike', sans-serif;
+  }
+  
+
+  li a:hover {
+    background-color: #111;
+  }
+  #first{
+    background-color: beige;
+  }
+  h2{
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-size: 4rem;
+    color: white;
+  }
+ #coffeetable{
+    border: 2px solid black;
+    text-align: center;
+    margin: 15px ;
+    height: 400px;
+    
+    
+   
+  }
+   td,th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: white;
+    
+  }
+ th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: bisque;
+    color: black;
+  }
+  td:hover{
+    background-color: gray;
+  }
+  .container-tables{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  #coffeetable2{
+    border: 2px solid black;
+    text-align: center;
+    margin: 15px ;
+    height: 400px;
+  }
+  .menupage{
+    background-color: rgb(117, 76, 76);
+  }
+  .bottommenu{
+    display: flex;
+  }
+  .normaltext{
+    color: white;
+    
+  }
+  .cheesecake{
+    width: auto;
+    height: auto;
+    border: 1px solid #000;
+    background-color: wheat;
+    
+    margin: 10px 10px;
+    padding: 10px 10px;
+
+  }
+  .aboutpage{
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+  }
+  .aboutfirsthalf{
+    display: flex;
+  }
+  .test {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    
+ }
+ 
+ .card {
+   border: 1px solid #dadada;
+   box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+   width: 35%;
+   margin: 10px;
+ }
+ 
+ .card h4 {
+   padding: 2px;
+   margin: 8px 0;
+ }
+ 
+ .card:hover {
+   box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+ }
+ 
+ .card .container {
+   padding: 4px 14px;
+ }
+ 
+ .card p {
+   margin: 14px 0;
+ }
+ .card img{
+  height: 500px;
+ }
+
+
+ 

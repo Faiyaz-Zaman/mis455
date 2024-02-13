@@ -84,11 +84,8 @@ p{
 .vl{
   border-left: 6px solid white;
   height: 300px;
-  position: absolute;
-  left:   15%;
-  margin-left: -3px;
-  top: 200px;
-  border-radius: 20px;
+  padding: 25px;
+  
 }
 a:hover{
   font-weight: bold ;
