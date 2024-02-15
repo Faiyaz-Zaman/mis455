@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(117, 76, 76);
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 12px 12px;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
