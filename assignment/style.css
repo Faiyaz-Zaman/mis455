@@ -144,5 +144,10 @@ h1{
   height: 500px;
  }
 
+.imgwithtext{
+ display: flex;
+}
+
+
 
  
