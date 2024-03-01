@@ -1,3 +1,6 @@
+body{
+  background-color: beige;
+} 
 ul {
     list-style-type: none;
     margin: 0;
@@ -21,4 +24,26 @@ ul {
   li a:hover {
     background-color: #111;
   }
-  
+  footer {
+    text-align: center;
+    padding: 6px;
+    background-color: black;
+    color: white;
+  }
+  a{
+    color: white;
+  }
+ .firstpara{
+  display: flex;
+ }
+img{
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+}
+p{
+  padding: 10px;
+}
+.secondpara{
+  display: flex;
+ }
