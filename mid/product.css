@@ -1,0 +1,106 @@
+.html{
+    scroll-behavior: smooth;
+}
+.ash{
+    color: gray;
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  footer {
+    text-align: center;
+    padding: 6px;
+    background-color: black;
+    color: white;
+  }
+
+.container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+   
+}
+.image{
+    width: 300px;
+    height: 300px;
+    padding-left: 15%;
+}
+.text{
+    font-size: 20px;
+    padding-left: 5%;
+    
+}
+.secondcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .images {
+    width: 300px;
+    height: 300px;
+    padding-left: 20%;
+    
+    
+  }
+
+  .secondtext {
+    margin: 40px; 
+    padding-right: 10%;
+  }
+  .headerstyle{
+    padding-left: 3%; 
+}
+.lastcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 4px 16px;
+  }
+.firstbox{
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+    padding: 4%;
+    border-radius: 5px;
+    
+}
+.secondbox{
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+    padding: 4%;
+    border-radius: 5px;
+}
+.thirdbox{
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+    padding: 4%;
+    border-radius: 5px
+}
+.logo{
+    width:40px;
+}
+.secondlogo{
+    width: 40px;
+}
+.thirdlogo{
+    width: 40px;
+}
+
