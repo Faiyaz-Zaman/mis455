@@ -1,12 +1,8 @@
-.html{
-    scroll-behavior: smooth;
+
+body{
+  font-size: 1.5em;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 .ash{
     color: gray;
     background-color: white;
@@ -63,6 +59,7 @@ ul {
     
 }
 .secondcontainer {
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
