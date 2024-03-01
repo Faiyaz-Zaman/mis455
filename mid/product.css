@@ -1,9 +1,11 @@
 .html{
     scroll-behavior: smooth;
 }
+
 .ash{
     color: gray;
     background-color: white;
+     font-family: "Roboto", sans-serif;
 }
 ul {
     list-style-type: none;
@@ -72,6 +74,7 @@ ul {
   }
   .headerstyle{
     padding-left: 3%; 
+    text-align: center;
 }
 .lastcontainer {
     display: grid;
@@ -95,12 +98,22 @@ ul {
     border-radius: 5px
 }
 .logo{
-    width:40px;
+    width:180px;
+    height: 120px;
+    padding: 5px;
 }
 .secondlogo{
-    width: 40px;
+    padding: 5px;
+    width:180px;
+    height: 120px;
 }
 .thirdlogo{
-    width: 40px;
+    padding: 5px;
+    width:180px;
+    height: 120px;
+ 
 }
+a{
+    color: white;
+  }
 
