@@ -1,0 +1,14 @@
+.innerStyle img {
+  width: 200px;
+}
+
+.innerStyle {
+  margin: 10px;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+
+#container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}

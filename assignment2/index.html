@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Weather</a></li>
+        <li><a href="#">Country</a></li>
+    </ul>
+    
+    <div class="container">
+        <div id="container1">
+            <img src="collection-cartoon-weather-signs_79603-1807.avif">
+            <h1 >Weather Information</h1>
+            <label for="searchBox">City Name:</label>
+            <input id="searchBox"type="text"> <br> <br>
+
+            
+            <button class="button" onclick="onprocess()">Show Weather Update</button>
+            <div id="weatheroutput">
+                
+            </div>
+            
+        </div>    
+        <div id="container2">
+            <img src="globe-dribbble.gif" >
+            <h1>Country Data</h1>
+            <label for="countrybox">Country Name:</label>
+            <input id="countrybox" type="text"> <br> <br>
+            <button class="button" onclick="countryprocess()">Show Country Data</button>
+        <div id="output">
+
+        </div>
+    </div>
+         
+    </div>
+        <footer>
+            <p>Faiyaz Zaman</p>
+            <p><a href="mailto:faiyaz.zaman10@gmail.com">faiyaz.zaman10@gmail.com</a></p>
+          </footer>
+
+    <script src="countries.js"></script>
+    
+</body>
+</html>
