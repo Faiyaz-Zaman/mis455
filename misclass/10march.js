@@ -48,6 +48,3 @@ function show (data){
      
 
 }
-for (){
-    if(var   spdkap skdpaks pda sidpasmjaspidpaskpdasdasi daspd as udpasdpajsdoaspd jalsdjoasujooasj doasdho ashdoansdnoasdnioasdoiasdasd asjd oajs ji,)
-}

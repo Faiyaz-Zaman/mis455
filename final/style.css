@@ -1,0 +1,18 @@
+.innerStyle img {
+    width: 200px;
+}
+
+.innerStyle {
+    margin: 10px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+#results {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.meal-image{
+    width: 200px;
+    height:200px;
+}
