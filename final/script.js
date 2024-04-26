@@ -41,16 +41,12 @@ function show(data) {
 }
 
 function showAllResults(data) {
-    // Clear previous content
     var resultsContainer = document.getElementById("results");
     resultsContainer.innerHTML = "";
-
-    // Display all results
     for (var i = 0; i < data.length; i++) {
         var mealDiv = document.createElement("div");
         mealDiv.classList.add("innerStyle");
 
-        // Add meal details to the div
         mealDiv.innerHTML = `    
            <img src="${data[i].strMealThumb}"  class="meal-image"><br>
             Meal ID: <b>${data[i].idMeal}</b><br>
@@ -59,8 +55,6 @@ function showAllResults(data) {
            
             Cooking Instructions: ${data[i].strInstructions}<br><br>
         `;
-
-        // Append the meal div to the results container
         resultsContainer.appendChild(mealDiv);
     }
 }
